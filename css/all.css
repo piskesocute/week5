@@ -1,0 +1,146 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
+aside {
+  background-color: #f8f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+aside h1 {
+  padding: 32px;
+}
+
+.aside-btn-bottom {
+  padding-bottom: 24px;
+}
+
+.logo {
+  background-image: url("../img/logo-ANSWER.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.aside-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 900;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 32px;
+}
+
+.aside-btn:hover {
+  padding-left: 28px;
+  border-left: 4px solid #68c068;
+}
+
+.aside-btn-active {
+  color: green;
+  padding-left: 28px;
+  border-left: 4px solid green;
+  pointer-events: none;
+}
+
+.aside-icon {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.user {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+
+.user .user-photo {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.user p {
+  font-size: 14px;
+  color: #6C757D;
+}
+
+.btn-addadmin {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-addadmin:hover {
+  outline: 2px solid green;
+  background-color: rgba(217, 247, 222, 0.267);
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.pagination a {
+  border-color: green;
+  color: green;
+}
+
+.pagination a:hover {
+  border: green;
+  background-color: #a4f3a4;
+  color: green;
+}
+
+.pagination .active {
+  pointer-events: none;
+  color: white;
+  background-color: green;
+}
+/*# sourceMappingURL=all.css.map */
